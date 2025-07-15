@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+:root {
+    --twiter-background: #15202b;
+    --text-white: #fff;
+}
+
+body {
+    background-color: var(--twiter-background);
+    color: var(--text-white);
+}
