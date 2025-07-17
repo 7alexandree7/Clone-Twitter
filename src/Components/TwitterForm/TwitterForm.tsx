@@ -1,24 +1,9 @@
-import { faCalendarAlt, faChartBar, faFilm, faImage, faMapMarkedAlt, faSmile } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import type { IconDefinition } from "@fortawesome/fontawesome-svg-core";
+import { iconsComponents } from "../../Const/IconsComponents/iconsComponents"
 
-type icons = {
-    id: number,
-    icon: IconDefinition
-}
 
 const TwitterForm = () => {
 
-    const iconsComponents: icons[] = [
-
-        { id: 1, icon: faImage },
-        { id: 2, icon: faFilm },
-        { id: 3, icon: faChartBar },
-        { id: 4, icon: faSmile },
-        { id: 5, icon: faCalendarAlt },
-        { id: 6, icon: faMapMarkedAlt },
-
-    ]
 
     return (
         <div className="border-b border-gray-700 w-full px-4">

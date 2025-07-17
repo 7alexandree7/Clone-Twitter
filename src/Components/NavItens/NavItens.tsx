@@ -3,7 +3,7 @@ import type { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 
 type Props = {
     icon: IconDefinition,
-    text: string
+    text: string | undefined
 }
 
 const NavItens = ({icon, text}: Props) => {
