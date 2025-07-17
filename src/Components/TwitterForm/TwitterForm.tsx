@@ -35,8 +35,10 @@ const TwitterForm = () => {
                         )
                     })}
                 </div>
-                <button className="bg-blue-400 text-white rounded-full font-bold px-6 py-2 hover:bg-blue-600 traansition duration-200 ">Tweet</button>
-
+                <button
+                    className="bg-blue-400 text-white rounded-full font-bold px-6 py-2 hover:bg-blue-600 traansition duration-200 cursor-pointer ">
+                    Tweet
+                </button>
             </div>
         </div>
     )
