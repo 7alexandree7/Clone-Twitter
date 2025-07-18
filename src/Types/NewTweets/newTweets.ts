@@ -6,7 +6,7 @@ export type newTweet = {
     avatar: string
     time: string
     image?: string | null
-    likes?: number
-    retweets?: number
-    comments?: number
+    likes?: number | null
+    retweets?: number | null
+    comments?: number | null
 }
