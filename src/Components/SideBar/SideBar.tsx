@@ -11,7 +11,7 @@ const SideBar = () => {
         <div className="w-20 xl:w-64 sticky top-0 px-2 h-screen">
             <FontAwesomeIcon icon={faTwitter} className="text-3xl text-blue-400 m-4" />
             <div className="w-full flex ">
-                <nav className="flex flex-col justify-center intems-center ">
+                <nav className="flex flex-col justify-center intems-center  ml-2 xl-ml-0 ">
                     {iconsSideBar.map((icon) => (
                         <NavItens key={icon.id} icon={icon.icon} text={icon.text} />
                     ))}

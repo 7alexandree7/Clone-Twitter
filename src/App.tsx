@@ -50,7 +50,7 @@ function App() {
 
 
   return (
-    <div className="flex max-w-7xl m-auto gap-4 overflow-hidden">
+    <div className="flex max-w-7xl m-auto gap-4 overflow-hidden px-2">
       <SideBar />
       <main className="flex-grow border-l border-r border-gray-700 max-w-xl">
         <Header />
