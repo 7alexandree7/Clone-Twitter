@@ -1,69 +1,87 @@
-# React + TypeScript + Vite
+# 📸 Recursos Visuais
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Imagem aleatória**: [https://picsum.photos/](https://picsum.photos/)
+- **Avatar aleatório**: [https://pt.gravatar.com/](https://pt.gravatar.com/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 📦 Bibliotecas Utilizadas
 
-## Expanding the ESLint configuration
+- **Crypto-js** — Realizar `Hash()`
+- **uuid** — Gerar ID aleatório
+- **Tailwind** — Customizar a aplicação
+- **fortawesome** — Ícones (Font Awesome)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# 📜 JavaScript
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### ✨ Fundamentos
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Template Strings  
+- Operadores  
+- Variáveis  
+- Arrow Function  
+- Função com retorno  
+- Função com parâmetro  
+- Função de callback  
+- Condicional  
+- Estrutura de repetição  
+- Eventos:
+  - `map()`
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 📚 Biblioteca Nativa `Math`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `Math.random()` — Gerar número aleatório entre `0` e `1`  
+- `Math.floor()` — Arredondar número (geralmente usado com `random`)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 📦 Módulos
+
+- `import / export`  
+- Estrutura de dados
+
+### ⏱️ Timers API
+
+- `setTimeout()` — Web API (Browser) / Node.js  
+- `clearInterval()` — Web API (Browser) / Node.js  
+
+---
+
+# ⚛️ React Hooks
+
+- `useState`  
+- `useEffect`  
+
+### 🧠 Conceitos React Abordados
+
+- JSX  
+- Componentes  
+- Renderização condicional  
+- Props  
+- State Lift  
+- Previous State  
+
+---
+
+# 🗂️ Estrutura de Pastas `/src`
+
+- `assets`  
+- `components`  
+- `const`  
+- `type`  
+- `utils`  
+
+---
+
+# 🔷 TypeScript
+
+- Criação de `interfaces` / `types` para componentes  
+- Tipagem de:
+  - Variáveis  
+  - `state`  
+  - Parâmetros  
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
