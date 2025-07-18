@@ -1,4 +1,4 @@
-import type { PropsCategory } from "../../Types/PropsCategory/propsCategory"
+import type { PropsCategory } from "../../Types/PropsCategory/PropsCategory"
 
 const TrendItem = ({ category, name, tweetCount }: PropsCategory) => {
 
