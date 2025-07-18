@@ -21,7 +21,6 @@ function App() {
   }, [])
 
 
-
   const addNewTweet = (content: string) => {
     const newTweet: newTweet = {
       id: uuidv4(),
