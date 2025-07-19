@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       addNewTweet(generatePosts())
-    }, 60000);
+    }, 9000);
 
     return () => clearInterval(interval);
   }, [])
