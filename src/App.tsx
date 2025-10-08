@@ -55,7 +55,7 @@ function App() {
       <main className="flex-grow border-l border-r border-gray-700 max-w-xl">
         <Header />
         <TwitterForm onTweet={addNewTweet} />
-        <div>
+        <div className="">
           {tweets.map((tweet) => (
             <Tweet
               key={tweet.id}
